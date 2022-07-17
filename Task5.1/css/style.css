@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header, footer{
+    background-color: brown;
+
+}
+header{
+    text-align: center;
+    padding: 50px 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+main{
+    padding: 170px 0 50px;
+}
+h2{
+    color: blueviolet;
+}
+p{
+    font-size: 22px;
+}
+li{
+    display: inline-block;
+}
+#last-link{
+    color: blue;
+}
+.ser{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    z-index: -1;
+}
+.ser a{
+    color: white;
+}
+.ser p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.team{
+    background-color: rgba(0, 0, 255, 0.568);
+    padding: 20px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+ right: 0;
+ top: 0;
+}
+.call{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    position: fixed;
+    right: 10px;
+    bottom:0 ;
+}
+.popup{
+    width: 400px;
+    padding: 20px;
+    background-color: yellow;
+    position: fixed;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    /*margin-top: -100px;
+    margin-left: -200px;*/
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 10px black;
+}
+.close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top:5px;
+    right: 7px;
+    background-color: rgb(228, 22, 22);
+    color: white;
+    padding: 5px;
+    border: none;
+}
